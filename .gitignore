@@ -4,9 +4,6 @@
 !/README.md
 !/DEVELOPMENT.md
 !/paper-math-bench/
-!/docs/
-/docs/*
-!/docs/weighted-partition-example.svg
 
 # Generated documents and local research material.
 *.pdf
