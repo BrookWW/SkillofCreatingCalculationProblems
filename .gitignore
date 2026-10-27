@@ -1,0 +1,33 @@
+# Repository publication allowlist.
+/*
+!/.gitignore
+!/README.md
+!/DEVELOPMENT.md
+!/paper-math-bench/
+!/docs/
+/docs/*
+!/docs/weighted-partition-example.svg
+
+# Generated documents and local research material.
+*.pdf
+*.tex
+!paper-math-bench/assets/main.tex
+*.bib
+!paper-math-bench/assets/references.bib
+*.aux
+*.log
+*.dvi
+*.xdv
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+**/__pycache__/
+*.py[cod]
+.DS_Store
+._*
+**/.statement-review-origins/
+**/runs/
+**/cache/
+**/TestCache/
+**/output/
+**/tmp/
