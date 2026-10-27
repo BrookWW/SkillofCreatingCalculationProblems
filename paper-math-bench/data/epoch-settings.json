@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "profile_id": "epoch-tier4-v2",
+  "verified_on": "2026-10-19",
+  "methodology_url": "https://epoch.ai/benchmarks/frontiermath-tier-4-v2",
+  "graph_url": "https://epoch.ai/frontiermath/tiers-1-4?tier=Tier+4+%28v2%29&view=graph&tab=release-date",
+  "data_url": "https://epoch.ai/data/benchmark_data.zip",
+  "data_member": "frontiermath_tier_4_v2.csv",
+  "data_sha256": "48b886c828092231989fba6e3819efb7462e89ef681b7b306b4bfa3505829e4a",
+  "limits": {
+    "total_token_limit": 1000000,
+    "submission_threshold_tokens": 660000,
+    "token_accounting": "cumulative_input_plus_output",
+    "python_tool_seconds": 30,
+    "answer_function_seconds": 30,
+    "question_wall_seconds": null
+  },
+  "model_efforts": {
+    "gpt-6.1-sol": {
+      "effort": "max",
+      "epoch_model_version": "gpt-6.1-sol_max",
+      "source_record_id": "HgAUm5zxrWbkfYUdeJMGzL"
+    },
+    "gpt-6-luna": {
+      "effort": "max",
+      "epoch_model_version": "gpt-6-luna_max",
+      "source_record_id": "7n3HBUK684GmdT6Tkycu6m"
+    },
+    "gpt-6-sol": {
+      "effort": "max",
+      "epoch_model_version": "gpt-6-sol_max",
+      "source_record_id": "jwS3LYLCPbZpHDzzkX6LyV"
+    },
+    "gpt-6-astra": {
+      "effort": "max",
+      "epoch_model_version": "gpt-6-astra_max",
+      "source_record_id": "f7BCT27LzcAtaLDP2tcrWF"
+    },
+    "gpt-5.6-terra": {
+      "effort": "max",
+      "epoch_model_version": "gpt-5.6-terra_max",
+      "source_record_id": "ZUygpkXqg3NjchXXfedAWV"
+    },
+    "gpt-5.6-luna": {
+      "effort": "max",
+      "epoch_model_version": "gpt-5.6-luna_max",
+      "source_record_id": "NLiiJJSyA9wmg2FHENFpAq"
+    },
+    "gpt-5.6-sol": {
+      "effort": "max",
+      "epoch_model_version": "gpt-5.6-sol_max",
+      "source_record_id": "QJ5rJMVypB4PMxPcBGftc8"
+    },
+    "gpt-5.4-pro-2026-03-05": {
+      "effort": "xhigh",
+      "epoch_model_version": "gpt-5.4-pro-2026-03-05_xhigh",
+      "source_record_id": "W6b3C8AeNC7CAFs5DQma8N"
+    },
+    "gpt-5.2-pro-2025-12-11": {
+      "effort": "xhigh",
+      "epoch_model_version": "gpt-5.2-pro-2025-12-11_xhigh",
+      "source_record_id": "oALBfwNc7dcNSDJSSBJXYe"
+    },
+    "gpt-5.5-pro": {
+      "effort": "xhigh",
+      "epoch_model_version": "gpt-5.5-pro_xhigh",
+      "source_record_id": "SFKXCPUu73mwxMoUotiZM2"
+    },
+    "gpt-5-pro-2025-10-06": {
+      "effort": "high",
+      "epoch_model_version": "gpt-5-pro-2025-10-06_high",
+      "source_record_id": "HfDahF4ZXTN6bjfDFwcHTU"
+    },
+    "gpt-5-mini-2025-08-07": {
+      "effort": "high",
+      "epoch_model_version": "gpt-5-mini-2025-08-07_high",
+      "source_record_id": "2WxRbjq5ZWTgiXZPqYUG4R"
+    },
+    "gpt-5.4-nano-2026-03-17": {
+      "effort": "high",
+      "epoch_model_version": "gpt-5.4-nano-2026-03-17_high",
+      "source_record_id": "SF6FYnnKztPCDWQc4v4EJa"
+    },
+    "gpt-5-nano-2025-08-07": {
+      "effort": "high",
+      "epoch_model_version": "gpt-5-nano-2025-08-07_high",
+      "source_record_id": "P5v3FUnVVTbaqaCr43deKi"
+    },
+    "gpt-5.4-mini-2026-03-17": {
+      "effort": "xhigh",
+      "epoch_model_version": "gpt-5.4-mini-2026-03-17_xhigh",
+      "source_record_id": "jtQ6rDiNxjNKkVMEPBE3Ub"
+    },
+    "gpt-5.4-2026-03-05": {
+      "effort": "xhigh",
+      "epoch_model_version": "gpt-5.4-2026-03-05_xhigh",
+      "source_record_id": "doiQDghqnLzbE8CFijLNQJ"
+    },
+    "gpt-5.5": {
+      "effort": "xhigh",
+      "epoch_model_version": "gpt-5.5_xhigh",
+      "source_record_id": "PKSMspJiJdNThB6qNvaBSM"
+    },
+    "gpt-5.2-2025-12-11": {
+      "effort": "xhigh",
+      "epoch_model_version": "gpt-5.2-2025-12-11_xhigh",
+      "source_record_id": "J3NUxsK2GXq9Whkjn7mEVm"
+    },
+    "o3-mini-2025-01-31": {
+      "effort": "high",
+      "epoch_model_version": "o3-mini-2025-01-31_high",
+      "source_record_id": "iR3Ut7aYEtz8dTYQFzq7rG"
+    },
+    "o4-mini-2025-04-16": {
+      "effort": "high",
+      "epoch_model_version": "o4-mini-2025-04-16_high",
+      "source_record_id": "TomkQucNryhFGkaUnUGeLR"
+    },
+    "gpt-5-2025-08-07": {
+      "effort": "high",
+      "epoch_model_version": "gpt-5-2025-08-07_high",
+      "source_record_id": "mSS7C84hJyYi4VnJtgzYvW"
+    }
+  },
+  "special_profiles": [
+    {
+      "epoch_model_version": "gpt-5.5-instant",
+      "record_id": "2UmuBfhBvYbbnTg5BnQqov",
+      "mapping": "No published effort suffix; resolve separately."
+    },
+    {
+      "epoch_model_version": "gpt-5.6-sol_promax",
+      "record_id": "cdWwJSH3jVfrKyhUHmT54T",
+      "mapping": "Special execution/mode label; do not pass as an effort or map to a standard CLI run without verifying its settings."
+    }
+  ],
+  "unpublished_fields": [
+    "actual_tokens_per_problem",
+    "cost_per_problem",
+    "attempt_count",
+    "temperature",
+    "per_generation_output_limit",
+    "context_configuration"
+  ]
+}

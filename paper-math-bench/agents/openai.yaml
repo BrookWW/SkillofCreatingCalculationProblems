@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Math Bench"
+  short_description: "Find sources, author, elaborate, and evaluate math benchmarks"
+  default_prompt: "Use $paper-math-bench to Find mathematical sources, Author the hardest credible calculation benchmarks with formal testing and T2/T3/T4 grouping, Elaborate existing problems, or Evaluate a bank."
