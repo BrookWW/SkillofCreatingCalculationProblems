@@ -88,6 +88,8 @@ A revision with uncertain or changed mathematical meaning cannot pass as an edit
 
 ## Example
 
+**Example status.** This problem was generated using this workflow and is shown as an illustration of its output. Inclusion here does not imply that it passes final screening or qualifies for the final benchmark.
+
 **An extremal weighted partition sum.**
 
 For $x\ge 0$, define
@@ -101,17 +103,14 @@ w_j(x)=\exp\!\left(\frac{9}{2}\frac{(j-2)x}{j+x}\right)
 For every positive integer $n$, set
 
 ```math
-\begin{aligned}
-C_n(x)
-&=\frac{1}{n!\,w_n(x)}
+C_n(x)=\frac{1}{n!\,w_n(x)}
 \sum_{\substack{m_1,\ldots,m_n\in\mathbb Z_{\ge 0}\\
                  \sum_{j=1}^{n}j m_j=n}}
 \frac{(k!)^2w_k(x)}{\prod_{j=1}^{n}m_j!}
-\prod_{j=2}^{n}\left(\frac{j!\,w_j(x)}{200}\right)^{m_j},
-\\
-k&=\sum_{j=1}^{n}m_j.
-\end{aligned}
+\prod_{j=2}^{n}\left(\frac{j!\,w_j(x)}{200}\right)^{m_j}.
 ```
+
+where $k=\sum_{j=1}^{n}m_j$.
 
 Determine the constants $\lambda>1$, $\alpha\in\mathbb R$, and $K>0$ for which
 
@@ -127,7 +126,7 @@ You may assume that constants of this form exist.
 
 **Answer.** The constants are
 
-$`\displaystyle \boxed{ \begin{gathered} \lambda=\frac{e^{3/2}}{4},\qquad \alpha=9,\\ K=\frac{\sqrt{3}\,\pi^3}{2^{18}200^3} \exp\left(-15+\frac{e^{-2}}{100}\right). \end{gathered} }`$
+$`\displaystyle \boxed{ \begin{aligned} \lambda&=\frac{e^{3/2}}{4},\\ \alpha&=9,\\ K&=\frac{\sqrt{3}\,\pi^3}{2^{18}200^3} \exp\left(-15+\frac{e^{-2}}{100}\right). \end{aligned} }`$
 
 **Entropy optimization.** Write $\beta=9/2$, $A=200$, and $L=\log\lambda$. For a probability vector $(p_i)$ and $c>0$, define
 
